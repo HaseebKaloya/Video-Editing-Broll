@@ -1,0 +1,150 @@
+╔════════════════════════════════════════════════════════════════╗
+║                 VIDEO EDITOR - SETUP GUIDE                     ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 QUICK START (3 Steps):
+═══════════════════════════
+
+1️⃣  INSTALL PYTHON
+   • Download Python 3.8+ from: https://www.python.org/downloads/
+   • ⚠️ IMPORTANT: Check "Add Python to PATH" during installation
+
+2️⃣  INSTALL DEPENDENCIES
+   • Open Command Prompt in this folder
+   • Run: pip install -r requirements.txt
+   • Wait 5-10 minutes for installation
+
+3️⃣  RUN THE EDITOR
+   • Double-click: QUICK_START.bat
+   • OR run: python run_editor.py
+
+═══════════════════════════════════════════════════════════════
+
+🔑 OPTIONAL: API KEYS (For Better Results)
+═══════════════════════════════════════════
+
+Without API keys: ✓ Works, uses free image sources
+With API keys: ⭐ Better quality, more relevant images
+
+To get FREE API keys:
+
+📸 PEXELS (Recommended):
+   1. Visit: https://www.pexels.com/api/
+   2. Sign up (free)
+   3. Copy your API key
+   
+🎨 PIXABAY (Optional):
+   1. Visit: https://pixabay.com/api/docs/
+   2. Sign up (free)
+   3. Copy your API key
+
+Then create a file named ".env" with:
+   PEXELS_API_KEY=paste_your_key_here
+   PIXABAY_API_KEY=paste_your_key_here
+
+═══════════════════════════════════════════════════════════════
+
+📁 YOUR VIDEO FILE:
+═══════════════════
+
+✓ Already found: Men Over 50_ This One Mistake Is Why You Wake Up to Pee at Night!.mp4
+
+The script will automatically find and edit your video.
+Output will be: edited_[your_video_name].mp4
+
+═══════════════════════════════════════════════════════════════
+
+⚙️ SYSTEM REQUIREMENTS:
+═══════════════════════
+
+✓ Windows 10/11
+✓ Python 3.8 or higher
+✓ 8GB RAM minimum (16GB recommended)
+✓ 5GB free disk space
+✓ Internet connection (for downloading images)
+
+Optional:
+  • NVIDIA GPU (speeds up processing)
+
+═══════════════════════════════════════════════════════════════
+
+🎬 WHAT THE EDITOR DOES:
+═══════════════════════
+
+The automated editor will:
+
+1. 🎤 Transcribe your video using AI
+2. 🔍 Extract key topics and phrases
+3. 🖼️ Download relevant images (every 5-15 seconds)
+4. ✨ Add beautiful animations and effects:
+   - Slide-in animations
+   - Zoom effects
+   - Fade transitions
+   - Borders and shadows
+5. 🎨 Apply color grading and beautification
+6. 📝 Add text overlays for key phrases
+7. 💾 Export final edited video
+
+═══════════════════════════════════════════════════════════════
+
+⏱️ PROCESSING TIME:
+═══════════════════
+
+Your video is ~350MB (likely 15-30 minutes long)
+
+Expected processing time:
+  • Without GPU: 20-40 minutes
+  • With GPU: 10-20 minutes
+
+The script will show progress updates.
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING:
+═══════════════════
+
+Problem: "Python not found"
+Solution: Reinstall Python, check "Add to PATH"
+
+Problem: "Module not found"
+Solution: Run: pip install -r requirements.txt
+
+Problem: Script runs but no output
+Solution: Check console for errors, review generated JSON files
+
+Problem: Low-quality images
+Solution: Add API keys to .env file
+
+Problem: Out of memory
+Solution: Close other programs, use smaller video, or add more RAM
+
+═══════════════════════════════════════════════════════════════
+
+📚 MORE HELP:
+═══════════════
+
+See README.md for:
+  • Detailed documentation
+  • Customization options
+  • Advanced usage
+  • Technical details
+
+═══════════════════════════════════════════════════════════════
+
+🎯 TIPS FOR BEST RESULTS:
+═══════════════════════
+
+✓ Use videos with clear speech
+✓ Educational/instructional content works best
+✓ Add Pexels API key for professional images
+✓ First run takes longer (downloads AI models)
+✓ Check generated JSON files to understand what was extracted
+
+═══════════════════════════════════════════════════════════════
+
+Ready to start? Double-click QUICK_START.bat or run:
+python run_editor.py
+
+Happy editing! 🎬✨
+
+═══════════════════════════════════════════════════════════════
